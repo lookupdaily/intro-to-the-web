@@ -10,14 +10,9 @@ get '/secret' do
   'shhhhh'
 end
 
-get '/sophie' do
-  'is the best'
+get '/cat' do
+  "<div style='border:dashed red;'> 
+   <img src='http://bit.ly/1eze8aE'>
+   </div>"
 end
 
-get '/liz' do
-  'is not as great as sophie'
-end
-
-get '/web' do
-  'we got this'
-end
